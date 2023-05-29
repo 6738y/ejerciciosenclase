@@ -1,0 +1,18 @@
+/* prigrama nmero
+titulo:las variables globales son variables que se declaran retorno de caja  
+fecha:
+nombre: Rivelino Reyes Gonzales*/
+#include<stdio.h>
+int a,b,c;
+int main ()
+{
+	int valor ;
+	printf ("tres valores\n");
+	scanf("%d %d %d\a",&a,&b,&c);
+	valor=a+b+c;
+	printf(" valor de a: %d\n",a);
+	printf(" valor de b: %d\n",b);
+	printf(" valor de c: %d\n",c);
+	printf(" suma de las variables: %d",valor);
+	return 0;
+}
